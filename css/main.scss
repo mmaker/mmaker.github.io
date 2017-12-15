@@ -9,7 +9,7 @@
 $base-font-family: sans-serif;
 $base-font-size:   14px;
 $base-font-weight: 400;
-$small-font-size:  $base-font-size * 0.5;
+$small-font-size:  $base-font-size * 0.56;
 $base-line-height: 1.115;
 
 $spacing-unit:     30px;
@@ -54,4 +54,16 @@ $on-laptop:        1024px;
 
 h1 {
     font-size: 100px;
+}
+
+
+.col-1 {
+    width: 69%;
+    float: left;
+}
+
+.col-2 {
+    width: 20%;
+    float: right;
+
 }
