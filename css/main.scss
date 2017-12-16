@@ -67,3 +67,12 @@ h1 {
     float: right;
 
 }
+
+
+div.quotes p {
+    padding: 2px 2px 2px 2px;
+    font-size: 13px;
+    border-left: solid 6px $grey-color-light;
+    padding-left: 10px;
+    font-style: oblique;
+}
