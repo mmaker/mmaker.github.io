@@ -1,3 +1,34 @@
+<script>
+  renderMathInElement(document.body, {
+  macros: {
+  "\\adv": "\\mathcal{A}",
+  "\\ppt": "\\mathsf{PPT}",
+  "\\NN": "\\mathbf{N}",
+  "\\RR": "\\mathbf{R}",
+  "\\abs": "\\left\\lvert #1 \\right\\rvert",
+  "\\bin": "\\{0, 1\\}",
+  "\\bottom": "\\perp",
+  "\\concat": "||",
+  "\\gen": "\\left< #1 \\right>",
+  "\\size": "| #1 |",
+  "\\negl": "\\mathsf{negl}",
+  "\\defeq": "\\coloneqq",
+  "\\poly": "\\mathsf{poly}",
+  "\\secpar": "\\lambda",
+  "\\secparam": "1^\\secpar",
+  "\\set": "\\{#1\\}",
+  "\\eval": "\\mathsf{Eval}",
+  "\\1" : "\\mathbb{1}",
+  "\\tag": "\\pod\\text",
+  },
+  delimiters: [
+  {left: "$$", right: "$$", display: true},
+  {left: "$", right: "$", display: false}
+  ],
+}
+  );
+</script>
+
 <footer class="site-footer">
 
   <div class="wrapper">

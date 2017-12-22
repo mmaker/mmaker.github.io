@@ -136,7 +136,6 @@ code {
     font-size: 15px;
     border: 1px solid $grey-color-light;
     border-radius: 3px;
-    background-color: #eef;
 }
 
 code {
@@ -207,4 +206,67 @@ pre {
             fill: $grey-color;
         }
     }
+}
+
+
+
+
+.theorem {
+    display: block;
+    font-style: italic;
+}
+.theorem:before {
+    content: "Theorem.";
+    font-weight: bold;
+    font-style: normal;
+}
+
+.theorem[text]:before {
+content: "Theorem (" attr(text) ") ";
+}
+
+.proposition {
+    display: block;
+    margin: 12px 0;
+    font-style: italic;
+}
+.proposition:before {
+    content: "Proposition. ";
+    font-weight: bold;
+    font-style: normal;
+}
+
+.proof {
+    display: block;
+    margin: 12px 0;
+    font-style: normal;
+}
+.proof:before {
+    content: "Proof. ";
+    font-style: italic;
+}
+.proof:after {
+    content: "\25FB";
+    float:right;
+}
+
+.definition {
+    display: block;
+    margin: 12px 0;
+    font-style: normal;
+}
+
+.definition:before {
+    content: "Definition. ";
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+.definition[text]:before {
+content: "Definition (" attr(text) "). ";
+}
+
+.definition > p, .proposition >  p, .proof > p {
+    display: inline;
 }

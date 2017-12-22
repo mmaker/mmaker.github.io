@@ -18,3 +18,7 @@ gpgkey: "0x4D3FA2E5996C6767"
 
 # Build settings
 markdown: kramdown
+excerpt_separator: ""
+highlighter: pygments
+kramdown:
+  math_engine: nil

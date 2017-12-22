@@ -10,7 +10,7 @@ A (2-party) HSS scheme splits an input $$x$$ into shares $$(x_0, x_1)$$
 such  that each share  computationally hides  $$x$$, and there
 exists an efficient homomorphic evaluation algorithm $$\mathsf{Eval}$$ such that
 for any function (or "program") $$P$$ from a given class it holds that
-$$\mathsf{Eval}(x_0,P)+\mathsf{Eval}(x_1,P)=P(x)$$.
+$\mathsf{Eval}(x_0,P)+\mathsf{Eval}(x_1,P)=P(x)$.
 
 HSS schemes were introduced by Boyle et al. ([Crypto 2016](https://eprint.iacr.org/2016/585),
 [Eurocrypt 2017](https://eprint.iacr.org/2017/150),
