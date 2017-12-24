@@ -19,10 +19,24 @@ Here we implement both the naïve algorithms as well as the optimized version pr
 [Extended benchmarks](benchmarks/) as well as
 [performance graphs](benchmarks/Intel.Core.i7-3537U/summary.html) are available.
 
+Looking for the implementation of a particular component?
+* Optimized group operations for pseudo-mersenne primes are in
+[`src/group.c`](https://git.tumbolandia.net/maker/hss/src/master/src/group.c).
+* The so-called _share conversion_ or _distributed discrete-log_ is available at
+[`src/ddlog.c:160`](https://git.tumbolandia.net/maker/hss/src/master/src/ddlog.c#L160).
+The optimized version of (Eurocrypt'17, §6.3) is defined in
+[`src/ddlog.c:172`](https://git.tumbolandia.net/maker/hss/src/master/src/ddlog.c#L172).
+(Note: the window has been increased to 64-bit.)
+The improvements described in (CCS'17, §4.1 and §6.1) are available in the same
+file; see
+[`src/ddlog.c:55`](https://git.tumbolandia.net/maker/hss/src/master/src/ddlog.c#L55).
+* The _RMS program multiplication_ is implemented in [`src/rms.c`](https://git.tumbolandia.net/maker/hss/src/master/src/rms.c).
+* The _homomorphic secret sharing scheme_  for RMS programs (CCS'17, §3.3) is implemented in
+[`src/hss.c`](https://git.tumbolandia.net/maker/hss/src/master/src/hss.c)
+
 The latest release is available for [download](download/hss-0.1.tar.xz)
 ([.sig](download/hss-0.1.tar.xz.asc)).
 The package is not copyrighted, and released into the public domain.
-
 
 For bug reports and comments concerning the specific implementation, please use my email
 address; for any other question or comment please refer to the paper authors as a whole.
