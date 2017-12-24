@@ -1,0 +1,22 @@
+---
+layout: post
+title:  "Master Notes"
+date:   2016-10-26 12:00:00 +0100
+categories: fuck sala
+---
+
+As of today I'm completing my course in math, and I want to share some of the
+notes I took over these painful years.
+Unfortunately, they are all in Italian, and most of them are incomplete, and surely
+there's tons of errors in them.
+However, I shed enough blood on them already to correct them, and my cosmic sense of purpose
+hopes that somebody somewhere will find them useful.
+I'ts Ⓐ-okay to copy them; sources are available on request.
+
+- [Algebraic Geometry I](https://people.develer.com/~maker/scholar/notes/ag.pdf)
+    was a course Riemann Surfaces and Algebraic Curves. Turns out most of
+    it was in Complex Analysis.
+- [Advanced Coding II](https://people.develer.com/~maker/scholar/notes/ac.pdf)
+    was a course on elliptic curves.
+- [Finite Fields and Symmetric Cryptography](https://people.develer.com/~maker/scholar/notes/ff.pdf)
+   was a course on Algebra over Finite Fields and Boolean Functions.
