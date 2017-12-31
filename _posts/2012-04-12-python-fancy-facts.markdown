@@ -37,7 +37,7 @@ True
 >>> from __future__ import braces
   File "", line 1
 SyntaxError: not a chance
->>> import antigravity  # if you read the source it's just 1 line of code source!
+>>> import antigravity  # if you read the source it's just 1 line of code!
 >>>
 >>>
 >>> 'this is a string'
@@ -48,10 +48,6 @@ SyntaxError: not a chance
 {1, 2, 3}
 >>> (1, 2, 3)
 (1, 2, 3)
->>> t = (0, 1, [])
->>> t[2].append(2)  # this used to raise an error but add the element anyways
->>> t
-(0, 1, [2])
 >>> {'one':1}
 {'one': 1}
 >>> ...
@@ -77,6 +73,10 @@ Ellipsis
 [1, 1, 1]
 >>> f() # wtf? Mutable and immutable objects.
 [1, 1, 1, 1]
+>>> t = (0, 1, [])  # mutable inside immutable
+>>> t[2].append(2)  # this used to raise an error but add the element anyways
+>>> t
+(0, 1, [2])
 >>>
 >>> def mysum(x):  # closures!
 ...   def inner(y):
