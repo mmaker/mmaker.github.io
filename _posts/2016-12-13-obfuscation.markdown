@@ -14,8 +14,8 @@ Then, in the real life, one would just have to replace those procedure with an a
 implementation of the primitive (like, `sha1` or `Dual_EC_DRBG`).
 This is totally wrong: there is a substantial difference between giving
 a program as input and just providing oracle access to it.
-On the other hand, experience has shown that this idea, although formally wrong, can be a
-pretty good heuristic.
+On the other hand, experience has shown that this idea, although formally wrong,
+can be a pretty good heuristic.
 <br/>
 <br/>
 
