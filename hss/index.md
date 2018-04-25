@@ -47,7 +47,7 @@ address; for any other question or comment please refer to the paper authors as 
 <br />
 <br />
 <br />
-##### Aknowledgements
+##### Acknowledgments
 
 <font size="1">
 Elette Boyle was supported by ISF grant 1861/16, AFOSR Award FA9550-17-1-0069, and ERC grant 307952.
