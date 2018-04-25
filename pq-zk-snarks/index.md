@@ -5,7 +5,7 @@ permalink: /pq-zk-snarks/
 ---
 
 This is the homepage for _Mangiafuoco_, the implementation of _LWE-based
-zk-SNARKS_ from Square Span Programs.
+zk-SNARKS_ from Square Span Programs [[GMNO18]](https://eprint.iacr.org/2018/275).
 
 A zk-SNARK is a non-interactive, succinct, zero-knowledge argument of knowledge.
 It allows to prove knowledge of a witness for any $\mathsf{NP}$ statement, without
@@ -33,7 +33,7 @@ For bug reports and comments please use my email address.
 <br />
 <br />
 <br />
-##### Aknowledgements
+##### Acknowledgments
 
 <font size="1">
  Rosario Gennaro was supported by NSF Award no. 1565403. Michele Minelli was
