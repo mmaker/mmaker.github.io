@@ -23,10 +23,9 @@ are not expected to withstand cryptanalitic efforts over the next few decades.
 Here we implement an LWE scheme and benchmark the computations of prover and
 verifier.
 
-The source code will be soon available for [dowload](download/mangiafuoco-0.1.tar.xz)
-([.sig](download/mangiafuoco-0.1.tar.xz.sig)).
+The source code will be soon available for [dowload](download/mangiafuoco-0.1.tar.gz)
+([.sig](download/mangiafuoco-0.1.tar.gz.asc)).
 The package is not copyrighted, and released to the public domain.
-
 For bug reports and comments please use my email address.
 
 <br />
