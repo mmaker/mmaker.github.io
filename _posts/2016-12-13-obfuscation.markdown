@@ -205,8 +205,8 @@ $D_{\alpha, \beta}$ big enough to contain a description of $C$ as input. This
 This can be solved letting $D_{\alpha, \beta}$ have input length $\poly$ and the
 proof would work as before.
 
-
-<div class="theorem"> TM obfuscators do not exist.</div>
+<div class="theorem"> TM obfuscators do not exist.
+</div>
 
 <div markdown="1" class="proof">
 Given $f_0, f_1: X \to Y$ define $f_0 \concat f_1: \bin \times X \to Y:

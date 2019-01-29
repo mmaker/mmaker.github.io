@@ -278,3 +278,24 @@ content: "Definition (" attr(text) "). ";
   -webkit-background-clip: text;
   background-clip: text;
 }
+
+
+.split {
+    width: 100%;
+    display: table;
+}
+
+.minipage {
+    width: 48%;
+    display: table-cell;
+}
+
+
+/* If you want the content centered horizontally and vertically */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}

@@ -14,11 +14,12 @@ baseurl: "/~orru" # the subpath of your site, e.g. /blog
 url: "http://www.di.ens.fr" # the base hostname & protocol for your site
 twitter_username: mmaker
 github_username:  mmaker
-gpgkey: "0x4D3FA2E5996C6767"
+gpgkey: "0x4D817DFFDF5E18F1"
 
 # Build settings
 markdown: kramdown
 excerpt_separator: ""
-highlighter: pygments
+highlighter: rouge
 kramdown:
   math_engine: nil
+  parse_block_html: true

@@ -2,7 +2,7 @@
 layout: post
 title:  "Master Notes"
 date:   2016-10-26 12:00:00 +0100
-categories: fuck sala
+categories: 
 ---
 
 As of today I'm completing my course in math, and I want to share some of the

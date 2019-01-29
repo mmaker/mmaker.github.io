@@ -1,33 +1,52 @@
-<script>
-  renderMathInElement(document.body, {
-  macros: {
-  "\\adv": "\\mathcal{A}",
-  "\\ppt": "\\mathsf{PPT}",
-  "\\NN": "\\mathbf{N}",
-  "\\RR": "\\mathbf{R}",
-  "\\abs": "\\left\\lvert #1 \\right\\rvert",
-  "\\bin": "\\{0, 1\\}",
-  "\\bottom": "\\perp",
-  "\\concat": "||",
-  "\\gen": "\\left< #1 \\right>",
-  "\\size": "| #1 |",
-  "\\negl": "\\mathsf{negl}",
-  "\\defeq": "\\coloneqq",
-  "\\poly": "\\mathsf{poly}",
-  "\\secpar": "\\lambda",
-  "\\secparam": "1^\\secpar",
-  "\\set": "\\{#1\\}",
-  "\\eval": "\\mathsf{Eval}",
-  "\\1" : "\\mathbb{1}",
-  "\\tag": "\\pod\\text",
-  "\\oracle": "\\mathcal{O}",
-  },
-  delimiters: [
-  {left: "$$", right: "$$", display: true},
-  {left: "$", right: "$", display: false}
-  ],
-}
-  );
+    <script>
+    macros["\\adv"] = "\\mathcal{A}";
+    macros["\\ppt"] = "\\mathsf{PPT}";
+    macros["\\NN"] = "\\mathbf{N}";
+    macros["\\RR"] = "\\mathbf{R}";
+    macros["\\abs"] = "\\left\\lvert #1 \\right\\rvert";
+    macros["\\bin"] = "\\{0, 1\\}";
+    macros["\\bottom"] = "\\perp";
+    macros["\\concat"] = "||";
+    macros["\\gen"] = "\\left< #1 \\right>";
+    macros["\\size"] = "| #1 |";
+    macros["\\negl"] = "\\mathsf{negl}";
+    macros["\\defeq"] = "\\coloneqq";
+    macros["\\poly"] = "\\mathsf{poly}";
+    macros["\\secpar"] = "\\lambda";
+    macros["\\secparam"] = "1^\\secpar";
+    macros["\\set"] = "\\{#1\\}";
+    macros["\\eval"] = "\\mathsf{Eval}";
+    macros["\\1"] = "\\mathbb{1}";
+    macros["\\tag"] = "\\pod\\text";
+    macros["\\oracle"] = "\\mathcal{O}";
+    macros["\\\ibe"] = "\\mathsf{IBE}";
+    macros["\\msk"] = "\\textnormal{msk}";
+    macros["\\pp"] = "\\textnormal{pp}";
+    macros["\\S"] = "\\mathsf{S}";
+    macros["\\E"] = "\\mathsf{E}"
+    macros["\\X"] = "\\mathsf{X}";
+    macros["\\D"] = "\\mathsf{D}",
+    macros["\\ct"] = "\\mathsf{ct}"
+    macros["\\id"] = "\\mathsf{id}",
+    macros["\\sk"] = "\\mathsf{sk}";
+    macros["\\sample"] = "\\gets";
+    macros["\\verify"] = "\\mathsf{V}";
+    macros["\\bool"] = "\\textit{bool}";
+
+var katex_options = {
+      macros: macros,
+      delimiters: [
+	  {left: "$$", right: "$$", display: true},
+	  {left: "$", right: "$", display: false},
+	  {left: "\\[", right: "\\]", display: true},
+      ],
+  }
+  renderMathInElement(document.body, katex_options);
+  
+  var pseudocode_nodes = document.querySelectorAll('.pseudocode code')
+  for (i = 0; i < pseudocode_nodes.length; i++) {
+    renderMathInElement(pseudocode_nodes[i], katex_options);
+  }
 </script>
 
 <footer class="site-footer">
