@@ -21,5 +21,5 @@ markdown: kramdown
 excerpt_separator: ""
 highlighter: rouge
 kramdown:
-  math_engine: nil
+  math_engine: 
   parse_block_html: true
