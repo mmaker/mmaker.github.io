@@ -42,11 +42,21 @@ var katex_options = {
       ],
   }
   renderMathInElement(document.body, katex_options);
-  
+
   var pseudocode_nodes = document.querySelectorAll('.pseudocode code')
   for (i = 0; i < pseudocode_nodes.length; i++) {
     renderMathInElement(pseudocode_nodes[i], katex_options);
   }
+</script>
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-146667032-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-146667032-1');
 </script>
 
 <footer class="site-footer">
