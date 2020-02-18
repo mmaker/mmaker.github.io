@@ -282,12 +282,23 @@ content: "Definition (" attr(text) "). ";
 
 .split {
     width: 100%;
-    display: table;
+    display: flex;
+    overflow: hidden;
 }
 
 .minipage {
-    width: 48%;
-    display: table-cell;
+    width: 100%;
+    display: flex;
+    margin: 20px;
+}
+
+.minipage .pseudocode { 
+    width: 100%;
+}
+
+.minipage .highlight { 
+    height: 100%;
+    width: 100%;
 }
 
 

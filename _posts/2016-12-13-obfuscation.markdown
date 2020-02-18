@@ -302,9 +302,9 @@ polynomially bounded.
 </div>
 
 <div class="definition" text="Function Ensemble">
-Given $\ell: \NN \to \NN$ a length function, an $\ell$-ensemble is a sequence $F
-= \set{F_\secpar}_{\secpar \in \NN}$ of families of maps $F_\secpar = \set{f_s: \bin^* \to
-\bin^{\ell(\secpar)}}_{s \in \bin^\secpar}$ so that $\exists \eval \in
+Given $\ell: \NN \to \NN$ a length function, an $\ell$-ensemble is a sequence 
+$F = \set{F_\secpar}_{\secpar \in \NN}$ of families of maps
+ $F_\secpar = \set{f_s: \bin^* \to \bin^{\ell(\secpar)}}_{s \in \bin^\secpar}$ so that $\exists \eval \in
 \poly(\secpar)$ such that $\forall s, x \in \bin^* . [\eval(s, x)] = f_s(x).$
 The string $s$ is called description or seed.
 </div>
@@ -336,6 +336,7 @@ then $R$ is evasive.
 </div>
 
 <div class="proof">
+
 $$
 \begin{aligned}
 \Pr_O[x \gets M^\oracle(\secparam), (x, \oracle(x)) \in R] &\leq
@@ -343,6 +344,7 @@ $$
 \poly(\secpar) \negl(\secpar) = \negl(\secpar).
 \end{aligned}
 $$
+
 </div>
 
 <div class="definition" text="Correlation Intractability">
@@ -365,6 +367,7 @@ R^F \defeq \bigcup_{\secpar \in \NN} \set{(s, f_s(s)) | s \in \bin^\secpar}.
 $$
 Clearly, this relation is poly-time decidable since $f_s \in \poly(\secpar)$ and
 evasive, since:
+
 $$
 \begin{aligned}
 & \forall x \in \bin^\secpar \quad \exists!y \in \bin^{\ell(\secpar)} . (x, y) \in
@@ -375,12 +378,14 @@ R^F
 $$
 
 However, if we consider the machine $\1(x) = x \quad \forall x \in \bin^*$:
+
 $$
 \begin{aligned}
 & \Pr_{s \in \bin^{\secpar}}[x \gets \1(s), (x, f_s(x)) \in R^F] \\
 =& \Pr_{s \in \bin^{\secpar}}[(s, f_s(s)) \in R^F] = 1,
 \end{aligned}
 $$
+
 which means that $F$ is not correlation intractable.
 </div>
 
