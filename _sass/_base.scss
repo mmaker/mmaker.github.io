@@ -209,8 +209,6 @@ pre {
 }
 
 
-
-
 .theorem {
     display: block;
     font-style: italic;
@@ -222,7 +220,7 @@ pre {
 }
 
 .theorem[text]:before {
-content: "Theorem (" attr(text) ") ";
+    content: "Theorem (" attr(text) ") ";
 }
 
 .proposition {
@@ -267,7 +265,7 @@ content: "Theorem (" attr(text) ") ";
 content: "Definition (" attr(text) "). ";
 }
 
-.definition > p, .proposition >  p, .proof > p {
+.definition > p, .proposition >  p, .proof > p, .theorem > p {
     display: inline;
 }
 
@@ -292,11 +290,11 @@ content: "Definition (" attr(text) "). ";
     margin: 20px;
 }
 
-.minipage .pseudocode { 
+.minipage .pseudocode {
     width: 100%;
 }
 
-.minipage .highlight { 
+.minipage .highlight {
     height: 100%;
     width: 100%;
 }

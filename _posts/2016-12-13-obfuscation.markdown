@@ -106,7 +106,7 @@ $\oracle(P)$ as input as when given only oracle access to $P$.
 Turns out this is the smallest possible requirements one could
 give to obfuscation, and the instatisfiability for all the above definitions
 is pretty straightfoward. For instance:
-<div markdown="1" class="proposition"> It is impossible to satisfy 2.
+<div markdown="1" class="proposition"> Item 2 cannot be satisfied.
 </div>
 <div class="proof">
 Consider the relation $\set{(P, \oracle(P))}_{P \in \ppt}$. It is always satisfied when given
@@ -123,7 +123,7 @@ $
 \negl(\min(\size{C}, \size{D}))$
 </div>
 
-<div class="proposition"> Neither 2-TM obfuscator not 2-circuit obfuscator
+<div class="proposition"> Neither 2-TM obfuscator nor 2-circuit obfuscator do
 exist.
 </div>
 <div markdown="1" class="proof">
@@ -302,10 +302,10 @@ polynomially bounded.
 </div>
 
 <div class="definition" text="Function Ensemble">
-Given $\ell: \NN \to \NN$ a length function, an $\ell$-ensemble is a sequence 
-$F = \set{F_\secpar}_{\secpar \in \NN}$ of families of maps
- $F_\secpar = \set{f_s: \bin^* \to \bin^{\ell(\secpar)}}_{s \in \bin^\secpar}$ so that $\exists \eval \in
-\poly(\secpar)$ such that $\forall s, x \in \bin^* . [\eval(s, x)] = f_s(x).$
+Given $\ell: \NN \to \NN$ a length function, an $\ell$-ensemble is a sequence
+$ F = \set{F_\secpar}\_{\secpar \in \NN}$ of families of maps
+ $F_\secpar = \set{f_s: \bin^* \to \bin^{\ell(\secpar)}}_{s \in \bin^\secpar}$ so that there exists
+ $\eval \in \poly(\secpar)$ such that $\forall s, x \in \bin^* . [\eval(s, x)] = f_s(x).$
 The string $s$ is called description or seed.
 </div>
 
@@ -357,8 +357,7 @@ notion could require $R$ to be decided in $\poly(\secpar)$. However, this will
 not change the impossibility results.
 
 
-<div class="theorem">
-Correlation intractable function ensemble do not exist.
+<div class="theorem"> Correlation intractable function ensemble do not exist.
 </div>
 <div class="proof">
 Let $F$ be an $\ell$-ensemble. Consider the following binary relation:
