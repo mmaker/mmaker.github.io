@@ -1,0 +1,27 @@
+---
+layout: page
+title: Notes
+permalink: /notes.html
+---
+
+<div class="home">
+
+  Here's a bunch of transcripts of previous talks, lectures, or seminars that I have given at my lab or in other universities.
+
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+	  <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+        </h2>
+
+      </li>
+    {% endfor %}
+  </ul>
+
+  <p class="rss-subscribe">
+    If you're still into this sort of things, you can subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a>.
+  </p>
+
+</div>

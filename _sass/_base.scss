@@ -126,7 +126,29 @@ blockquote {
     }
 }
 
+/**
+ * Info boxes
+ */
 
+.announcement {
+    border-left: 5px solid $blue-color-light;
+    padding-left: $spacing-unit / 4;
+    font-size: 15px;
+    letter-spacing: -1px;
+    font-style: italic bold;
+    color: $blue-color-dark;
+}
+
+
+/**
+ * Quotes
+ */
+
+quote {
+    font-family: monospace;
+    font-size: 12px;
+    padding-left: 15em;
+}
 
 /**
  * Code formatting
@@ -224,10 +246,11 @@ pre {
 }
 
 .proposition {
-    display: block;
+    disgplay: block;
     margin: 12px 0;
     font-style: italic;
 }
+
 .proposition:before {
     content: "Proposition. ";
     font-weight: bold;

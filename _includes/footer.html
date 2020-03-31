@@ -29,9 +29,16 @@
     macros["\\ct"] = "\\mathsf{ct}"
     macros["\\id"] = "\\mathsf{id}",
     macros["\\sk"] = "\\mathsf{sk}";
+    macros["\\advantage"] = "\\textsf{Adv}^{\\mathrm{#1}}_{#2}(\\secpar)";
+    // KaTeX doesn't (yet) handle optional arguments…
+    // https://github.com/KaTeX/KaTeX/blob/master/src/macros.js#L241
+    macros["\\game"] = "\\operatorname{#1}_{#2}(\\secpar)";
+    macros["\\specgame"] = "\\operatorname{#2}^{#1}_{#3}(#4)";
+    macros["\\prob"] = "\\Pr\\left[#1\\right]";
     macros["\\sample"] = "\\gets";
     macros["\\verify"] = "\\mathsf{V}";
     macros["\\bool"] = "\\textit{bool}";
+
 
 var katex_options = {
       macros: macros,
