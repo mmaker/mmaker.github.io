@@ -6,7 +6,7 @@ categories: cryptography
 ---
 
 <div class="announcement">
-This post is still a work in progress. But, at least, now I have a CSS all hacked-up to for displaying game-based notions
+This post is still a work in progress. But, at least, after 2 years I have a CSS all hacked-up to for displaying game-based notions
 as in <a href="https://ctan.org/pkg/cryptocode">cryptocode.sty</a>.
 </div>
 
