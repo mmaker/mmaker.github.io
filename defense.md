@@ -45,10 +45,3 @@ Secondly, we will revisit a family of zero-knowledge arguments of knowledge (SNA
 Lastly, we consider a novel, anonymous cryptocurrency whose security can be guaranteed via arguments of knowledge: Mimblewimble. The cryptocurrency was proposed by an anonymous author in 2016.
 
 The defense will conclude reminding academics that there's people dying because of bad cryptography, and that it is our duty as cryptographers to work also on standards and implementations.
-
-
-You can check out the slides here below:
-
-<center>
-<iframe src="https://slides.com/micheleorru/phd/embed?token=5Sr5iC4M&style=hidden" width="576" height="420" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-</center>
