@@ -10,8 +10,9 @@ title: Michele Orrù
 email: michele.orru@ens.fr
 description: > # this means to ignore newlines until "baseurl:"
   Michele Orrù, Cryptographer
-baseurl: "/~orru" # the subpath of your site, e.g. /blog
-url: "http://www.di.ens.fr" # the base hostname & protocol for your site
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "tumbolandia.net" # the base hostname & protocol for your site
+domain: "tumbolandia.net"
 twitter_username: mmaker
 github_username:  mmaker
 gpgkey: "0x4D817DFFDF5E18F1"
