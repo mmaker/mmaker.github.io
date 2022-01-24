@@ -239,3 +239,11 @@
         }
     }
 }
+
+
+h3:after
+{
+    content:' ';
+    display:block;
+    border:1px solid black;
+}

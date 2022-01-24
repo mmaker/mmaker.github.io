@@ -3,8 +3,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-  <meta property="og:image" content="https://www.di.ens.fr/~orru/toit-dma.jpg">
-  <meta name="twitter:image" content="https://www.di.ens.fr/~orru/toit-dma.jpg">
+  <meta property="og:image" content=" {{ "toit-dma.jpg" | prepend: site.baseurl }}">
+  <meta name="twitter:image" content="{{ "toit-dma.jpg" | prepend: site.baseurl }}">
 
   <meta name="twitter:card" content="summary"/>
   <meta name="twitter:site" content="{{site.twitter_username}}"/>
