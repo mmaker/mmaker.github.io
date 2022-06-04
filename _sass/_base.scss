@@ -156,10 +156,10 @@ blockquote {
  * Quotes
  */
 
-quote {
-    font-family: monospace;
-    font-size: 12px;
-    padding-left: 15em;
+cite {
+    font-style: italic;
+    font-size: $base-font-size;
+    padding-left: 100px;
 }
 
 /**

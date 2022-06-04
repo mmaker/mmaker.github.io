@@ -10,8 +10,7 @@ I believe that privacy is a human right, and that cryptography can help foster a
 My research focuses on the intersection of authentication and anonymity.
 I work on:
 
-
-- efficient and more secure zero-knowledge proofs,
+- improving efficiency and security of zero-knowledge proofs,
 - lightweight anonymous credential systems,
 - confidential transactions.
 

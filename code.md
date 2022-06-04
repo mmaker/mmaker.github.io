@@ -4,15 +4,12 @@ title: Code
 permalink: /code.html
 ---
 <p>
-<quote>
+<cite>
 Someone has to write software to defend privacy, and since we can't get privacy unless we all do,
 we're going to write it.
-</quote>
+</cite>
 </p>
 
-
-<br>
-<br>
 
 ### Anonymous Tokens
 
