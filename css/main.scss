@@ -7,9 +7,9 @@
 
 // Our variables
 $base-font-family: sans-serif;
-$base-font-size:   14px;
+$base-font-size:   16px;
 $base-font-weight: 400;
-$small-font-size:  $base-font-size * 0.56;
+$small-font-size:  $base-font-size * 0.6;
 $base-line-height: 1.115;
 
 $spacing-unit:     40px;
@@ -63,12 +63,12 @@ h1 {
 
 
 .col-1 {
-    width: 69%;
+    width: 59%;
     float: left;
 }
 
 .col-2 {
-    width: 20%;
+    width: 30%;
     float: right;
 
 }

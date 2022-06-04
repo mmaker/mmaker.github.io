@@ -56,6 +56,13 @@ figure > img {
     display: block;
 }
 
+sub {
+    font-size: $small-font-size;
+    padding: 0.5em;
+    line-height: 0.5;
+}
+
+
 figcaption {
     font-size: $small-font-size;
     padding: 0.5em;

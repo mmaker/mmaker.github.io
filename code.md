@@ -13,6 +13,7 @@ we're going to write it.
 
 <br>
 <br>
+
 ### Anonymous Tokens
 
 Anonymous Tokens are lightweight, single-use anonymous credentials.
