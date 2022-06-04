@@ -7,7 +7,7 @@ layout: default
 # Michele Orrù
 
 I believe that privacy is a human right, and that cryptography can help foster an open society.
-My research focuses in the intersection of authentication and anonymity.
+My research focuses on the intersection of authentication and anonymity.
 I work on:
 
 
