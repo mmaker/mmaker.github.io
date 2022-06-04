@@ -12,8 +12,8 @@ permalink: /teaching.html
 
 ## Students
 
-- Annamira O'Toole (UC Berkeley, undergrad.),
-- Yuwen Zhang (UC Berkeley, undergrad.),
-- Loreleï Lankester (PSL University, undergrad.),
-- Anita Dürr (PSL Univeristy, undergrad.),
-- Matthias Trannoy (PSL University, undergrad.)
+- _Annamira O'Toole_, UC Berkeley, undergrad.
+- _Yuwen Zhang_, UC Berkeley, undergrad.
+- _Loreleï Lankester_, PSL University, undergrad.
+- _Anita Dürr_, PSL Univeristy, undergrad.
+- _Matthias Trannoy_. PSL University, undergrad.
