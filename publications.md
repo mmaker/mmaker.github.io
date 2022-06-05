@@ -7,10 +7,13 @@ permalink: /publications.html
 In theoretical cryptography, authors are conventionally listed in alphabetical order, regardless of their contribution amount.
 
 ## Featured Publications
-- **[Gemini: an elastic proof system for diverse environments](https://ia.cr/2022/420)** [[Code](https://github.com/arkworks-rs/gemini)],
+
+- **[Gemini: an elastic proof system for diverse environments](https://ia.cr/2022/420)**
+    [[Talk](https://www.youtube.com/watch?v=Suv7MN131f8)]
+    [[Code](https://github.com/arkworks-rs/gemini)],
     <br>
     with J. Bootle, A. Chiesa, Y. Hu._EUROCRYPT 2022_.
-- **[On the (in)security of ROS](https://eprint.iacr.org/2020/945)**,
+- **[On the (in)security of ROS](https://eprint.iacr.org/2020/945)**
     [[Talk](https://youtu.be/jrtwNV9KEFU?t=2116)],
     <br>
     with F. Benhamouda, T. Lepoint, J. Loss, M. Raykova. _EUROCRYPT 2021_.
@@ -22,6 +25,7 @@ In theoretical cryptography, authors are conventionally listed in alphabetical o
     with G. Fuchsbauer, Y. Seurin. _EUROCRYPT 2019_.
 
 ## Preprints
+
 - **Non-interactive Mimblewimble transactions, revisited**
     [[ePrint](https://ia.cr/2022/265)],
     <br />
@@ -34,8 +38,9 @@ In theoretical cryptography, authors are conventionally listed in alphabetical o
 ## Conference publications
 
 - **Gemini: an elastic proof system for diverse environments**
-    [[ePrint](https://ia.cr/2022/420)],
-    [[Code](https://github.com/arkworks-rs/gemini)]
+    [[ePrint](https://ia.cr/2022/420)]
+    [[Talk](https://www.youtube.com/watch?v=Suv7MN131f8)]
+    [[Code](https://github.com/arkworks-rs/gemini)],
     <br>
     with J. Bootle, A. Chiesa, Y. Hu._EUROCRYPT 2022_.
 - **A proposal for the standardization of ∑-protocols**
@@ -79,4 +84,3 @@ In theoretical cryptography, authors are conventionally listed in alphabetical o
     [[ePrint](https://eprint.iacr.org/2016/933)],
     <br>
     with E. Orsini, P. Scholl._CT-RSA 2017_.
-

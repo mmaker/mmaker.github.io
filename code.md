@@ -9,8 +9,9 @@ permalink: /code.html
 
 <cite>-- A cypherpunk manifesto</cite>
 
-A more complete list of contributions and software is Software listed here constitutes for the most part projects tied to (for the most part) proofs of concepts and is not necessarily maintained.
-
+A more complete list of contributions and software is available on [Github](https://github.com/mmaker).
+Project listed here are for the most part proofs of concepts and paired with a research paper:
+they are not maintained and are **not** meant for deployment.
 
 ### Anonymous Tokens
 
