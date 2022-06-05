@@ -3,12 +3,13 @@ layout: page
 title: Code
 permalink: /code.html
 ---
-<p>
-<cite>
-Someone has to write software to defend privacy, and since we can't get privacy unless we all do,
-we're going to write it.
-</cite>
-</p>
+
+>  Someone has to write software to defend privacy, and since we can't get privacy unless we all do,
+> we're going to write it.
+
+<cite>-- A cypherpunk manifesto</cite>
+
+A more complete list of contributions and software is Software listed here constitutes for the most part projects tied to (for the most part) proofs of concepts and is not necessarily maintained.
 
 
 ### Anonymous Tokens

@@ -1,6 +1,6 @@
 function togglePonies() {
     var cfg = {
-	"baseurl":"https://panzi.github.io/Browser-Ponies/",
+	"baseurl":"https://tumbolandia.net/",
 	"fadeDuration":500,
 	"volume":1,
 	"fps":25,

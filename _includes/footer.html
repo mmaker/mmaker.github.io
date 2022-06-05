@@ -74,11 +74,10 @@ var katex_options = {
       <div class="footer-col footer-col-1">
         <ul class="contact-list">
           <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-          <li>{{ site.gpgkey }}</li>
-	  <li>
-	    <script type="text/javascript"
-			src="https://panzi.github.io/Browser-Ponies/basecfg.js" id="browser-ponies-config"></script>
-	    <script type="text/javascript" src="https://panzi.github.io/Browser-Ponies/browserponies.js" id="browser-ponies-script"></script>
+          <li> {{ site.office_address }} </li>
+          <li>
+	    <script type="text/javascript"src="{{base}}/js/browserponiescfg.js" id="browser-ponies-config"></script>
+	    <script type="text/javascript" src="{{base}}/js/browserponies.js" id="browser-ponies-script"></script>
 	    <script type="text/javascript" src="{{base}}/js/ponies.js"></script>
 	    <a href="javascript:togglePonies()">g0t ponies?</script>
           </li>

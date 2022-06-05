@@ -4,7 +4,7 @@ title: Publications
 permalink: /publications.html
 ---
 
-In theoretical cryptography, authors are (conventionally) listed in alphabetical order, regardless of their contribution amount.
+In theoretical cryptography, authors are conventionally listed in alphabetical order, regardless of their contribution amount.
 
 ## Featured Publications
 - **[Gemini: an elastic proof system for diverse environments](https://ia.cr/2022/420)** [[Code](https://github.com/arkworks-rs/gemini)],
@@ -48,11 +48,11 @@ In theoretical cryptography, authors are (conventionally) listed in alphabetical
     [[Talk](https://youtu.be/jrtwNV9KEFU?t=2116)],
     <br>
     with F. Benhamouda, T. Lepoint, J. Loss, M. Raykova. _EUROCRYPT 2021_.
-    _<emsp style="color:red">Best paper award! Invited to the Journal of Cryptology</emsp>_
+    _<emsp style="color:red">Best paper award! Invited to the Journal of Cryptology.</emsp>_
 - **Efficient Anonymous Tokens with Private Metadata Bit**
     [[ePrint](https://eprint.iacr.org/2020/072)]
-    [[Talk](https://www.youtube.com/watch?v=uk3WOFaasCQ)],
-    [[Code](https://github.com/mmaker/anonymous-tokens/)]
+    [[Talk](https://www.youtube.com/watch?v=uk3WOFaasCQ)]
+    [[Code](https://github.com/mmaker/anonymous-tokens/)],
     <br>
     with B. Kreuter, T. Lepoint, M. Raykova. _CRYPTO 2020_.
 - **Aggregate cash systems: A cryptographic investigation of Mimblewimble**

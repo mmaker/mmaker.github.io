@@ -1,9 +1,10 @@
 <header class="site-header">
 
   <div class="wrapper">
-    <!-- {% if page.path != "" %}
-    <a class="site-title" href="{{ site.baseurl }}">{{ site.title }}</a>
-    {% endif %} -->
+    {% if page.path contains 'index' %}
+    {% else %}
+    <a class="site-title" href="{{ site.baseurl }}/"><</a>
+    {% endif %}
 
     <nav class="site-nav">
       <a href="#" class="menu-icon">
