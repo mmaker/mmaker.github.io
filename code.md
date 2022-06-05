@@ -7,7 +7,7 @@ permalink: /code.html
 >  Someone has to write software to defend privacy, and since we can't get privacy unless we all do,
 > we're going to write it.
 
-<cite>-- A cypherpunk manifesto</cite>
+<cite>-- A Cypherpunk's manifesto</cite>
 
 A more complete list of contributions and software is available on [Github](https://github.com/mmaker).
 Project listed here are for the most part proofs of concepts and paired with a research paper:
