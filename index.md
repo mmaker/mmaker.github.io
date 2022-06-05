@@ -6,7 +6,7 @@ layout: default
 
 # Michele Orrù
 
-I believe that privacy is a human right, and that cryptography can help foster an open society.
+I believe that privacy is a human right and that cryptography can help foster an open society.
 My research focuses on the intersection of authentication and anonymity.
 I work on:
 
@@ -14,7 +14,7 @@ I work on:
 - lightweight anonymous credential systems,
 - confidential transactions.
 
-I have contributed to Python, Debian, and Tor.
+In the past, I contributed to Python, Debian, and Tor.
 I helped design [Globaleaks](http://globaleaks.org/), now translated in more than 90 languages and used by more than 300 organizations,
 and co-authored the cryptography behind Google's [Trust Tokens](https://developer.chrome.com/en/docs/privacy-sandbox/trust-tokens/).
 
@@ -24,7 +24,6 @@ I got my PhD in 2020 from **[École Normale Supérieure](https://crypto.di.ens.f
 advised by [Georg Fuchsbauer](https://www.di.ens.fr/~fuchsbau).
 Before, I got my MSc in Mathematics from the [University of Trento](http://www.maths.unitn.it/en).
 I attended the **[Recurse Center](https://recurse.com/)** in Fall 2020 (W2'20).
-
 
 </div>
 
