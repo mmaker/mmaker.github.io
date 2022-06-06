@@ -15,7 +15,8 @@ I work on:
 - confidential transactions.
 
 In the past, I contributed to Python, Debian, and Tor.
-I helped design [Globaleaks](http://globaleaks.org/), now translated in more than 90 languages and used by more than 300 organizations,
+I helped design [Globaleaks](http://globaleaks.org/), an open-source whistleblowing platform
+now translated in more than 90 languages and used by more than 300 organizations,
 and co-authored the cryptography behind Google's [Trust Tokens](https://developer.chrome.com/en/docs/privacy-sandbox/trust-tokens/).
 
 I am currently a postdoctoral researcher at **[UC Berkeley](https://eecs.berkeley.edu/)** under
