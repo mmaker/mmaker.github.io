@@ -18,6 +18,7 @@ In the past, I contributed to Python, Debian, and Tor.
 I helped design [Globaleaks](http://globaleaks.org/), an open-source whistleblowing platform
 now translated in more than 90 languages and used by more than 300 organizations,
 and co-authored the cryptography behind Google's [Trust Tokens](https://developer.chrome.com/en/docs/privacy-sandbox/trust-tokens/).
+Sometimes, I help NGOs and militants on matters of digital security.
 
 I am currently a postdoctoral researcher at **[UC Berkeley](https://eecs.berkeley.edu/)** under
 the supervision of [Alessandro Chiesa](https://people.eecs.berkeley.edu/~alexch/).
