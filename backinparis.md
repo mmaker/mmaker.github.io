@@ -14,7 +14,7 @@ Michele will be back in:
 </tt>
 </center>
 <script>
-var countDownDate = new Date("July 7, 2022 16:20:00 +0200").getTime();
+var countDownDate = new Date("July 7, 2022 16:37:00 +0200").getTime();
 
 function foo() {
 
@@ -37,8 +37,8 @@ function foo() {
 
   // If the count down is finished, write some text
   if (distance < 0) {
-    clearInterval(x);
-    document.getElementById("time").innerHTML = "EXPIRED";
+    <!-- document.getElementById("time").innerHTML = "EXPIRED"; -->
+    window.location.replace("https://flightaware.com/live/flight/AFR85");
   }
 }
 
