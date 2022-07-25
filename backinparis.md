@@ -14,7 +14,7 @@ Michele will be back in:
 </tt>
 </center>
 <script>
-var countDownDate = new Date("July 7, 2022 16:37:00 +0200").getTime();
+var countDownDate = new Date("Aug 14, 2022 16:05:00 -0900").getTime();
 
 function foo() {
 
@@ -38,7 +38,7 @@ function foo() {
   // If the count down is finished, write some text
   if (distance < 0) {
     <!-- document.getElementById("time").innerHTML = "EXPIRED"; -->
-    window.location.replace("https://flightaware.com/live/flight/AFR85");
+    window.location.replace("https://flightaware.com/live/flight/KL636");
   }
 }
 
